@@ -1,16 +1,23 @@
 export default function RootLayout({
-  children, header, body
+  children, header, footer
 }: {
   children: React.ReactNode
   header: React.ReactNode
-  body: React.ReactNode
+  footer: React.ReactNode
 }) {
   return (
     <html lang="en">
-      This is layout
-      <header>{header}</header>
-      <div>{children}</div>
-      <main>{body}</main>
+      <head>
+        <meta name="viewport" content="initial-scale=1, width=device-width" />
+      </head>
+      <nav>future nav</nav>
+      <main>
+        This is main layout
+        <header>{header}</header>
+        <div>
+          {children}</div>
+      </main>
+      {footer}
     </html>
   )
 }

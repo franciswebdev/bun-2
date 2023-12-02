@@ -1,3 +1,3 @@
 export default function Footer() {
-  return <footer>This is my footer.</footer>
+  return <div>This is standard footer.</div>
 }

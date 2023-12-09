@@ -1,3 +1,5 @@
+
+
 export default function Header() {
-  return <div>This is standard header.</div>
+  return <header>This is standard header.</header>
 }
